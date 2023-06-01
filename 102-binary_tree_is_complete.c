@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 void pint_push(binary_tree_t *node, levelorder_queue_t *front,
-                levelorder_queue_t **rear);
+		levelorder_queue_t **rear);
 /**
  * create_node - creates a new node.
  * @node: pointer to the new binary tree node
