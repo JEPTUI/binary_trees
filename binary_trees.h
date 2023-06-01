@@ -64,5 +64,6 @@ void push(binary_tree_t *node, levelorder_queue_t *front, levelorder_queue_t **r
 void pop(levelorder_queue_t **front);
 void free_queue(levelorder_queue_t *front);
 levelorder_queue_t *create_node(binary_tree_t *node);
+int binary_tree_is_complete(const binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
